@@ -1,0 +1,14 @@
+.recipe {
+  max-width: 50%;
+  margin: 0 auto;
+  background-color: rgb(46, 42, 42);
+  height: 100%;
+  padding: 0 2em;
+}
+
+@media (max-width: 991.98px) {
+  .recipe {
+    max-width: 100%;
+    padding: 0 1em;
+  }
+}

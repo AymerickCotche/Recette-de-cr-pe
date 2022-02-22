@@ -1,0 +1,17 @@
+.instructions {
+  background-color: #eee;
+  padding: 1em;
+  border-radius: 1.5em;
+  &__li {
+    margin-bottom: 0.5em;
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 15px;
+      height: 1px;
+      margin-right: 0.5em;
+      margin-bottom: 0.3em;
+      background-color: orange;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.ingredients {
+  padding: 0 0 1em 1em;
+  margin-bottom: 1.5em;
+  border-bottom: 1px solid #eee;
+  color: white;
+  &__mesure {
+    color: black;
+    background-color: rgb(255, 116, 66);
+    padding: 0.2em 0.7em;
+    border-radius: 0.3em;
+  }
+}
